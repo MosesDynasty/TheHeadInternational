@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Please make sure to pay exactly the amount stipulated on the form</h1>
+    <div class="container">
+        <h1>Payment System</h1>
+        <form>
+            <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="expiryDate">Expiry Date:</label>
+                    <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name">Name on Card:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name on card">
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="text" class="form-control" id="amount" placeholder="Enter payment amount">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Payment</button>
+        </form>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
